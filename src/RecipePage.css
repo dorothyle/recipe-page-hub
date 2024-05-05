@@ -44,17 +44,50 @@
     font-weight: bold;
 }
 
+.recipePage div {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
 .omeletteImage {
     width: 100%;
 }
 
-.recipePage div {
-    margin-left: 2rem;
-    margin-right: 2rem;
+.prepTime {
+    background-color: #fff7fc;
+    border-radius: 15px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .prepTime h3 {
     font-weight: 600;
     margin: 0;
     padding: 0;
+    color: #83274f;
 }
+
+.prepTime ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.prepTime li {
+    padding-left: 1em; 
+}
+
+.prepTime li::before {
+    content: "•";
+    color: #83274f;
+    font-size: 23px;
+    display: inline-block;
+    margin-right: 2rem;
+    margin-left: -1rem;
+    margin-bottom: -1rem;
+}
+
