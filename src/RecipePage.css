@@ -26,3 +26,12 @@
 .recipePage span, .measurement {
     font-weight: bold;
 }
+
+.omeletteImage {
+    width: 100%;
+}
+
+.recipePage div {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
