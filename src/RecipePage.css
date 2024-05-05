@@ -53,6 +53,17 @@
     width: 100%;
 }
 
+.description h1 {
+    line-height: 55px;
+    margin-top: 2.5rem;
+    margin-bottom: 2.3rem;
+    padding: 0;
+}
+
+.description p {
+    margin: 0;
+}
+
 .prepTime {
     background-color: #fff7fc;
     border-radius: 15px;
