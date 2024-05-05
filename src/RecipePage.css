@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Goudy+Bookletter+1911&display=swap');
+
+@font-face {
+    font-family: "Outfit";
+    src: url("./assets/fonts/outfit/static/Outfit-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Outfit";
+    font-weight: bold;
+    src: url("./assets/fonts/outfit/static/Outfit-Bold.ttf");
+}
+
+.recipePage {
+    background-color: white;
+    color: #303030;
+    font-family: "Outfit";
+    display: flex;
+    flex-direction: column;
+}
+
+.recipePage h1, h2 {
+    font-family: "EB Garamond", serif;
+}
+
+.recipePage span, .measurement {
+    font-weight: bold;
+}

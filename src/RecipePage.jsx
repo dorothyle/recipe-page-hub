@@ -1,4 +1,5 @@
 import omeletteImage from "./assets/images/image-omelette.jpeg";
+import './RecipePage.css';
 
 const RecipePage = () => {
   return (
@@ -79,19 +80,19 @@ const RecipePage = () => {
         </p>
         <div>
           <p>Calories</p>
-          <p>277kcal</p>
+          <p className="measurement">277kcal</p>
         </div>
         <div>
           <p>Carbs</p>
-          <p>0g</p>
+          <p className="measurement">0g</p>
         </div>
         <div>
           <p>Protein</p>
-          <p>20g</p>
+          <p className="measurement">20g</p>
         </div>
         <div>
           <p>Fat</p>
-          <p>22g</p>
+          <p className="measurement">22g</p>
         </div>
       </div>
     </div>
