@@ -78,6 +78,7 @@
 .prepTime h3 {
     font-weight: 600;
     margin: 0;
+    margin-bottom: 0.5rem;
     padding: 0;
     color: #83274f;
 }
@@ -90,6 +91,7 @@
 
 .prepTime li {
     padding-left: 1em; 
+    margin-bottom: 0.5rem;
 }
 
 .prepTime li::before {
